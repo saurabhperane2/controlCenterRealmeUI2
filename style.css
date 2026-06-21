@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+.container{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.top{
+    margin-top: 4vmax;
+    box-sizing: border-box;
+    padding: 2.5vmax;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.t1{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+#time{
+    font-size: 2.5vmax;
+}
+.t2{
+    display: flex;
+    align-items: center;
+    gap: 1vmax;
+}
+.middle{
+    position: relative;
+    margin-top: 2vmax;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 40vmax;
+    height: 15vmax;
+    background-color: black;
+    border-radius: 2vmax;
+}
+.m1{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vmax;
+    height: 7vmax;
+    overflow: clip;
+    padding: 1vmax;
+}
+#circle{
+    width: 5vmax;
+    height: 5vmax;
+    border-radius: 6vmax;
+    background-color: grey;
+}
+.m2{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vmax;
+    height: 8vmax;
+    bottom: 0;
+    margin-bottom: 1vmax;
+}
+#brightnessSlider{
+    width: 30vmax;
+    height: 5vmax;
+    border-radius: 6vmax;
+    background-color: grey;
+}
+#autoBrightness{
+    width: 5vmax;
+    height: 5vmax;
+    border-radius: 6vmax;
+    background-color: grey;
+}
+.notifications{
+    margin-top: 3vmax;
+    justify-self: center;
+}
+.notifications{
+    height: 62vh;
+    overflow: auto;
+}
+#newNotifications{
+    font-family: sans-serif;
+    margin-top: 1vmax;
+    width: 40vmax;
+    height: 8vmax;
+    background-color: black;
+    border-radius: 2vmax;
+    padding: 1vmax;
+}
+#newNotificationsEmpty{
+    margin-top: 1vmax;
+    width: 40vmax;
+    height: 8vmax;
+    border-radius: 2vmax;
+    padding: 1vmax;
+}
