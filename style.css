@@ -28,7 +28,7 @@
     font-size: 1.5vmax;
     display: flex;
     align-items: center;
-    gap: 1vmax;
+    gap: 0.5vmax;
     font-weight: 600;
 }
 .middle{
